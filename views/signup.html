@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Waves</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Data Visualization of Global Issues">
+		<meta name="author" content="Afika Nyati">
+		<meta name="keywords" content="Waves, Data Visualization, Global Issues">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<!--<link rel="icon" type="image/png" href="assets/images/favicon.png"> -->
+
+		<!-- CSS and Styling -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+
+		<!-- jQuery and JavaScript -->
+		<script type="text/javascript" src="../assets/scripts/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="../assets/scripts/script.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="../assets/scripts/jquery.validate.js"></script>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div id="profile-pic">
+				<img src="../assets/images/avatars/logo-avatar.svg" height="250px" width="250px"/>
+			</div>
+			<div class="nav-username">
+				<h3 class="nav-username-writing">
+					Waves
+				<h3>
+			</div>
+			<ul id="nav-locker" class="scrollable">
+				<li class="nav-item">
+			    	<a href="signup.html">
+			    		<div>
+			    			<img class="nav-icon person-add" src="../assets/images/icons/person-add.svg"/>
+			    			<h3 class="nav-writing"> Sign Up</h3>
+			    		</div>
+			    	</a>
+			    </li>
+				<li class="nav-item">
+					<a href="login.html">
+						<div>
+							<img class="nav-icon" src="../assets/images/icons/person.svg"/>
+							<h3 class="nav-writing"> Log In</h3>
+						</div>
+					</a>
+				</li>
+			    <div id="social-grid">
+			    	<div class="row">
+						<div class="col">
+							<a href="#" class="icon icon-mono facebook" title="Share Page on Facebook">facebook</a>
+						</div>
+
+						<div class="col">
+							<a href="#" class="icon icon-mono twitter" title="Share Page on Twiter">twitter</a>
+						</div>
+					</div>
+			    </div>
+			</ul>
+		</nav>
+		<input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+		<label for="nav-trigger">
+			<button class="c-hamburger">
+				<span class="blue"></span>
+			</button>
+		</label>
+		<div id="site-wrap">
+		    <div id="view">
+		    	<button id="home-button" type="button">
+		    		<a href="home-notloggedin.html">
+		    			<img src="../assets/images/icons/home.svg"/>
+		    		</a>
+		    	</button>
+		    	<section id="register" class="blue">
+		    		<div id="register-div">
+		    			<img class="register-logo" src="../assets/images/logo.svg"/>
+			    		<h1 class="register-heading">
+			    			Sign Up
+			    		</h1>
+			    		<div>
+			    			<div id="avatar-picker">
+				    			<h1 class="register-heading med">Pick an Avatar</h1>
+				    			<div id="avatar-picker-container" class="scrollable">
+				    				<input type="radio" id="avatar1" name="avatar" value="avatar1"/>
+				    				<label for="avatar1" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar1.svg"/>
+				    				</label>
+				    					<input type="radio" id="avatar2" name="avatar" value="avatar2"/>
+				    				<label for="avatar2" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar2.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar3" name="avatar" value="avatar3"/>
+				    				<label for="avatar3" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar3.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar4" name="avatar" value="avatar4"/>
+				    				<label for="avatar4" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar4.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar5" name="avatar" value="avatar5"/>
+				    				<label for="avatar5" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar5.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar6" name="avatar" value="avatar6"/>
+				    				<label for="avatar6" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar6.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar7" name="avatar" value="avatar7"/>
+				    				<label for="avatar7" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar7.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar8" name="avatar" value="avatar8"/>
+				    				<label for="avatar8" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar8.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar9" name="avatar" value="avatar9"/>
+				    				<label for="avatar9" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar9.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar10" name="avatar" value="avatar10"/>
+				    				<label for="avatar10" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar10.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar11" name="avatar" value="avatar11"/>
+				    				<label for="avatar11" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar11.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar12" name="avatar" value="avatar12"/>
+				    				<label for="avatar12" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar12.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar13" name="avatar" value="avatar13"/>
+				    				<label for="avatar13" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar13.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar14" name="avatar" value="avatar14"/>
+				    				<label for="avatar14" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar14.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar15" name="avatar" value="avatar15"/>
+				    				<label for="avatar15" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar15.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar16" name="avatar" value="avatar16"/>
+				    				<label for="avatar16" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar16.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar17" name="avatar" value="avatar17"/>
+				    				<label for="avatar17" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar17.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar18" name="avatar" value="avatar18"/>
+				    				<label for="avatar18" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar18.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar19" name="avatar" value="avatar19"/>
+				    				<label for="avatar19" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar19.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar20" name="avatar" value="avatar20"/>
+				    				<label for="avatar20" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar20.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar21" name="avatar" value="avatar21"/>
+				    				<label for="avatar21" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar21.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar22" name="avatar" value="avatar22"/>
+				    				<label for="avatar22" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar22.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar23" name="avatar" value="avatar23"/>
+				    				<label for="avatar23" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar23.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar24" name="avatar" value="avatar24"/>
+				    				<label for="avatar24" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar24.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar25" name="avatar" value="avatar25"/>
+				    				<label for="avatar25" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar25.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar26" name="avatar" value="avatar26"/>
+				    				<label for="avatar26" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar26.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar27" name="avatar" value="avatar27"/>
+				    				<label for="avatar27" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar27.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar28" name="avatar" value="avatar28"/>
+				    				<label for="avatar28" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar28.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar29" name="avatar" value="avatar29"/>
+				    				<label for="avatar29" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar29.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar30" name="avatar" value="avatar30"/>
+				    				<label for="avatar30" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar30.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar31" name="avatar" value="avatar31"/>
+				    				<label for="avatar31" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar31.svg"/>
+				    				</label>
+				    				<input type="radio" id="avatar32" name="avatar" value="avatar32"/>
+				    				<label for="avatar32" class="avatar">
+				    					<img class="avatar-image" src="../assets/images/avatars/avatar32.svg"/>
+				    				</label>
+				    			</div>
+		    				</div>
+		    				<form id="register-form">
+			    				<fieldset>
+			    					<ul>
+			    						<li>
+			    							<input type="text" id="register-username" name="username" placeholder="Username" required="" data-msg-required="Please choose a username." data-rule-minlength="4" data-msg-minlength="Your username is too short." maxlength="50" autocapitalize="off" autocomplete="off" autocorrect="off">
+			    						</li>
+			    						<li>
+			    							<input type="password" id="register-password" name="password" placeholder="Password" required="" data-msg-required="Please choose a password." data-rule-minlength="4" data-msg-minlength="Your password is too short." maxlength="100" autocomplete="off">
+			    						</li>
+			    						<li>
+			    							<input type="password" id="register-confirm-password" name="confirm-password" placeholder="Confirm Password" required="" data-msg-required="Please confirm your password." data-rule-equalto="#register-password" data-msg-equalto="Password doesn't match." maxlength="100">
+			    						</li>
+			    						<li>
+			    							<input type="email" id="register-email" name="email" value="" placeholder="Email" required="" data-msg-required="Please enter your email." data-msg-email="The email address you supplied is invalid." maxlength="100">
+			    						</li>
+			    						<li id="li-dob" class="controls-dob">
+			    							<label for="register-age">Date of Birth:</label>
+			    							<div id="register-dob" class="register-dob">
+												<div class="controls controls-month">
+												  	<select id="register-dob-month" class="dob" name="dob-month">
+													    <option value="" selected="" disabled="">Month</option>
+													    <option value="01">January</option>
+													    <option value="02">February</option>
+													    <option value="03">March</option>
+													    <option value="04">April</option>
+													    <option value="05">May</option>
+													    <option value="06">June</option>
+													    <option value="07">July</option>
+													    <option value="08">August</option>
+													    <option value="09">September</option>
+													    <option value="10">October</option>
+													    <option value="11">November</option>
+													    <option value="12">December</option>
+												  	</select>
+												</div>
+												<div class="controls controls-day">
+												  	<input type="number" id="register-dob-day" class="dob" name="dob-day" placeholder="Day" pattern="[0-9]*" maxlength="2" min="1" max="31" required="" data-msg-required="What day were you born?" data-msg-number="Please enter a valid day of the month." data-msg-min="Please enter a valid day of the month." data-msg-max="Please enter a valid day of the month.">
+												</div>
+												<div class="controls controls-year">
+												  	<input type="number" id="register-dob-year" class="dob" name="dob-year" placeholder="Year" pattern="[0-9]*" maxlength="4" min="1900" max="2006" required="" data-msg-required="What month were you born?" data-msg-number="Please enter a valid year." data-msg-min="Please enter a valid year." data-msg-max="Sorry, but you don't meet our age requirements.">
+												</div>
+											</div>
+			    						</li>
+			    						<li id="li-gender" class="gender">
+								            <label class="sr-only">Gender:</label>
+								              <label for="register-male" class="radio control-inline">
+								                <input type="radio" id="register-male" class="gender" name="gender" value="male" required="" data-msg-required="Please indicate your gender.">
+								                Male              </label>
+
+								              <label for="register-female" class="radio control-inline">
+								                <input type="radio" id="register-female" class="gender" name="gender" value="female" required="" data-msg-required="Please indicate your gender.">
+								                Female              </label>
+								        </li>
+								        <button class="submit-button" type="submit">
+								        	<h3>SIGN UP</h3>
+								        </button>
+			    					</ul>
+			    				</fieldset>
+		    				</form>
+		    			</div>
+		    		</div>
+			    </section>
+		    </div>
+		    <div id="site-overlay"></div>
+		</div>
+
+	</body>
+</html>
