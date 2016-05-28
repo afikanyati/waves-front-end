@@ -39,10 +39,12 @@ $(document).ready(function() {
 		$(this).hasClass("is-active") ? $(this).removeClass("is-active") : $(this).addClass("is-active");
 		$('label[for="nav-trigger"]').trigger('click');
 		if ($('input[id="nav-trigger"]').is(":checked")) {
+			$('#header').css("left", '252px');
 			$("#site-overlay").css({"background": "rgba(0,0,0, 0.8)", "z-index": 6});
 			$(".nav-username").addClass("open");
 			disableScrolling();
 		} else {
+			$('#header').css("left", '0px');
 			$("#site-overlay").css({"background": "rgba(0,0,0, 0)", "z-index": 3});
 			$(".nav-username").removeClass("open");
 			enableScrolling();
